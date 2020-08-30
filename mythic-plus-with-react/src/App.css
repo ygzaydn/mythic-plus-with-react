@@ -17,16 +17,20 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 
 .affix-box {
   display:flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 50%;
 }
 
 .main-title {
