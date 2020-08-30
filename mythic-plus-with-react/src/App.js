@@ -1,4 +1,4 @@
-import React, { Component } from 'react';import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
 
@@ -39,7 +39,7 @@ class App extends Component {
   }
 }
 
-function Affix({name, description, url, id}){
+const Affix = ({name, description, url, id}) => {
   return (
     <div key={id}>
       <h2>Name of the affix:{name}</h2>
