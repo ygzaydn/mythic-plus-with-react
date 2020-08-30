@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mythic-plus-with-react/static/css/main.d9ab855b.chunk.css",
+    "main.css": "/mythic-plus-with-react/static/css/main.a505b8c7.chunk.css",
     "main.js": "/mythic-plus-with-react/static/js/main.521f038c.chunk.js",
     "main.js.map": "/mythic-plus-with-react/static/js/main.521f038c.chunk.js.map",
     "runtime-main.js": "/mythic-plus-with-react/static/js/runtime-main.38b32fef.js",
@@ -8,15 +8,15 @@
     "static/js/2.b11318a8.chunk.js": "/mythic-plus-with-react/static/js/2.b11318a8.chunk.js",
     "static/js/2.b11318a8.chunk.js.map": "/mythic-plus-with-react/static/js/2.b11318a8.chunk.js.map",
     "index.html": "/mythic-plus-with-react/index.html",
-    "precache-manifest.9077ff5c12207da1d5f1d746e4b140ae.js": "/mythic-plus-with-react/precache-manifest.9077ff5c12207da1d5f1d746e4b140ae.js",
+    "precache-manifest.ee85bd447c8f6655858f4316db7181b1.js": "/mythic-plus-with-react/precache-manifest.ee85bd447c8f6655858f4316db7181b1.js",
     "service-worker.js": "/mythic-plus-with-react/service-worker.js",
-    "static/css/main.d9ab855b.chunk.css.map": "/mythic-plus-with-react/static/css/main.d9ab855b.chunk.css.map",
+    "static/css/main.a505b8c7.chunk.css.map": "/mythic-plus-with-react/static/css/main.a505b8c7.chunk.css.map",
     "static/js/2.b11318a8.chunk.js.LICENSE.txt": "/mythic-plus-with-react/static/js/2.b11318a8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.38b32fef.js",
     "static/js/2.b11318a8.chunk.js",
-    "static/css/main.d9ab855b.chunk.css",
+    "static/css/main.a505b8c7.chunk.css",
     "static/js/main.521f038c.chunk.js"
   ]
 }
