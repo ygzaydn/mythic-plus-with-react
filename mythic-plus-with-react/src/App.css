@@ -25,12 +25,13 @@
 
 }
 
-
 .affix-box {
   display:flex;
-  justify-content: center;
+  flex-direction: row;
+  flex-basis: auto;
+  align-items: center;
   width: 100%;
-  min-height: 50%;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 
 .main-title {
