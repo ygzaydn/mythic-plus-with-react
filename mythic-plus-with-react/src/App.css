@@ -24,15 +24,20 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.affix-box {
+  display:flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-title {
+  text-align: center;
+}
+
+.main-page {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/326/460/849/coat-of-arms-undead-orc-wow-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
 }

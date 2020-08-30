@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
+import Affix from './components/affix'
 
 class App extends Component {
   constructor(props){
@@ -20,34 +21,24 @@ class App extends Component {
     const { result } = this.state;
     console.log(result);
     return (
-      <div>
-       <h1>M+ Affixes for this week!</h1>,
-      {result.map(el => {
-        return (
-          <Affix 
-            name={el.name}
-            description={el.description}
-            url={el.wowhead_url}
-            id={el.id}
-          />
-        )
-        
-      })}
+      <div class="main-page">
+       <h1 class="main-title">M+ Affixes for this week!</h1>
+        <div class="affix-box">
+          {result.map(el => {
+            return (
+              <Affix 
+                name={el.name}
+                description={el.description}
+                url={el.wowhead_url}
+                id={el.id}
+              />
+            )
+          })}
+        </div>
       </div>
 
     )
   }
 }
-
-const Affix = ({name, description, url, id}) => {
-  return (
-    <div key={id}>
-      <h2>Name of the affix:{name}</h2>
-      <h2>Description of the affix:{description}</h2>
-      <h2>Wowhead URL:{url}</h2>
-    </div>
-  )
-}
-
 
 export default App;
