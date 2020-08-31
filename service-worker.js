@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mythic-plus-with-react/precache-manifest.ee85bd447c8f6655858f4316db7181b1.js"
+  "/mythic-plus-with-react/precache-manifest.a90bf192b14514cc51152d6028a43a88.js"
 );
 
 self.addEventListener('message', (event) => {
