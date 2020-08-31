@@ -1,29 +1,54 @@
 import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
-import Affix from './components/affix'
+import Affix from './components/affix-component/affix'
+import Character from './components/character-component/character'
 
 class App extends Component {
   constructor(props){
     super(props);
     this.state = {
       result: [],
+      queryCharName: '',
+      charInfoFlag: false,
+      charInfo: [],
+
     }
   }
+
+  getQueryName = (event) => {
+    this.setState({queryCharName: event.target.value});
+  }
+
+  getCharInfo = (event) => {
+    event.preventDefault();
+    axios.get(`https://raider.io/api/v1/characters/profile?region=eu&realm=twisting-nether&name=${this.state.queryCharName}&fields=mythic_plus_scores`)
+    .then(res => {
+      this.setState({charInfo: res.data,
+      charInfoFlag: !this.state.charInfoFlag});
+    })
+    .catch(() => {
+      if(this.state.charInfoFlag){
+        this.setState({charInfoFlag: !this.state.charInfoFlag});
+      }
+      alert('Character not found');
+    })
+  }
+
   componentDidMount(){
     axios.get('https://raider.io/api/v1/mythic-plus/affixes?region=eu&locale=en')
     .then(res => {
       const affixes = res.data.affix_details;
       this.setState({ result: affixes})})
+
   }
   
   render(){
-    const { result } = this.state;
-    console.log(result);
+    const { result, charInfo, queryCharName, charInfoFlag } = this.state;
     return (
-      <div class="main-page">
-       <h1 class="main-title">M+ Affixes for this week!</h1>
-        <div class="affix-box">
+      <div className="main-page">
+       <h1 className="main-title">M+ Affixes for this week!</h1>
+        <div className="affix-box">
           {result.map(el => {
             return (
               <Affix 
@@ -35,10 +60,31 @@ class App extends Component {
             )
           })}
         </div>
+        <form className="char-search-box">
+        <label>
+          Name of the character: 
+          <input  type="text" 
+                  name="name"
+                  value={queryCharName}
+                  onChange={this.getQueryName} />
+        </label>
+        <input  type="submit" 
+                value="Submit"
+                onClick={this.getCharInfo} />
+        </form>
+        {charInfoFlag ? 
+        <Character
+          name={charInfo.name}
+          faction={charInfo.faction}
+          role={charInfo.class}
+          spec={charInfo.active_spec_name}
+          race={charInfo.race}
+          gender={charInfo.gender}
+          realm={charInfo.realm}
+          score={charInfo.mythic_plus_scores.all}/>
+        :null}
       </div>
-
     )
   }
 }
-
 export default App;

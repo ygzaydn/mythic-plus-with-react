@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: column;
     border: solid black;
-    border-radius: 15px;
+    border-radius: 3%;
     margin: 5% 1%;
     text-align: center;
     padding: 3%;
     height: 20vh;
     width: 20vw;
-    background-color: gray;
-    overflow: hidden;
+    background-color: #515070;
+    overflow: auto;
 }
 
 .affix-card:hover {
@@ -17,7 +17,7 @@
 }
 
 .affix-card-name {
-    color: blue;
+    color: #ff8e6e;
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 5%;
@@ -28,9 +28,9 @@
 }
 
 .affix-card-description{
-    color:white;
+    color:#f6f6f6;
 }
 
 .affix-card-url{
-    color:blue
+    color:#ff8e6e
 }
