@@ -61,16 +61,23 @@ class App extends Component {
           })}
         </div>
         <form className="char-search-box">
-        <label>
-          Name of the character: 
-          <input  type="text" 
-                  name="name"
-                  value={queryCharName}
-                  onChange={this.getQueryName} />
-        </label>
-        <input  type="submit" 
-                value="Submit"
-                onClick={this.getCharInfo} />
+          <a className="char-search-box-title">Detailed character information</a>
+          <div className="char-search-form-elements">
+              <input  
+                type="text" 
+                name="name"
+                className="search-bar"
+                placeholder="Enter character name here!"
+                value={queryCharName}
+                onChange={this.getQueryName} 
+              />
+            <input  
+              type="submit" 
+              value="Submit"
+              className="submit-button"
+              onClick={this.getCharInfo} 
+            />
+          </div>
         </form>
         {charInfoFlag ? 
         <Character
