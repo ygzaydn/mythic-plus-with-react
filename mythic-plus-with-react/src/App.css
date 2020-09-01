@@ -52,33 +52,39 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  background-color: #515070;
 }
 
 .search-bar {
-  margin: 0 2vw 0 1vw ;
+  margin: 0 2vw 0 3% ;
   border: none;
-  border-bottom: 2px solid #515070 ;
+  background-color: #515070;
+  border-bottom: 2px solid white ;
+  color: #ff8e6e;
 }
 
 .submit-button {
   background-color: #ff8e6e;
   color:#515070;
   border: none;
-  width: 10vw;
+  width: auto;
   height: auto;
   overflow: hidden;
   font-weight: bold;
   border-radius: 5%;
+  font-size: 80%;
 }
 
 .submit-button:hover{
   background-color: #515070;
   color: #ff8e6e;
   border-color: #ff8e6e;
-  border-radius: 5%;
 }
 
 .char-search-box-title {
-  font-weight: bold;
-  margin: 0 0 3vw 1vw;
+  color: #ff8e6e;
+  width: auto;
+  height: auto;
+  font-size: 150%;
+  padding: 1% 0 1% 3%;
 }

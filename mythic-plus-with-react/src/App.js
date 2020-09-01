@@ -67,13 +67,12 @@ class App extends Component {
                 type="text" 
                 name="name"
                 className="search-bar"
-                placeholder="Enter character name here!"
                 value={queryCharName}
                 onChange={this.getQueryName} 
               />
             <input  
               type="submit" 
-              value="Submit"
+              value="Search"
               className="submit-button"
               onClick={this.getCharInfo} 
             />

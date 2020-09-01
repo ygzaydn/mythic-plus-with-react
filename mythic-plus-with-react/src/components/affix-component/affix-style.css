@@ -1,11 +1,11 @@
 .affix-card {
     display: flex;
     flex-direction: column;
-    border: solid black;
+    border: solid  #ff8e6e;
     border-radius: 3%;
     margin: 1%;
     text-align: center;
-    padding: 3%;
+    padding: 1vw;
     height: 20vh;
     width: 20vw;
     background-color: #515070;
@@ -13,24 +13,26 @@
 }
 
 .affix-card:hover {
-    border-radius: 50px;
+    border-radius: 2%;
 }
 
 .affix-card-name {
     color: #ff8e6e;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 120%;
     margin-bottom: 5%;
 }
 
 .affix-card-name:hover {
-    font-size: 40px;
+    font-size: 150%;
 }
 
 .affix-card-description{
     color:#f6f6f6;
+    font-size: 80%;
 }
 
 .affix-card-url{
-    color:#ff8e6e
+    color:#ff8e6e;
+    word-wrap:break-word;
 }
