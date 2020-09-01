@@ -1,5 +1,9 @@
 .character-info-section{
     display: flex;
     flex-direction: column;
-    margin: 0 0 3vw 1vw;
+    margin: 2vw 0 3vw 1vw;
+    background-color: #515070;
+    width: 20vw;
+    color:white;
+    padding: 5vw;
 }
