@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0da1a0081618f6156b5f5f68db5e74d8",
+    "revision": "b209173a76ec70a730831052775467cc",
     "url": "/mythic-plus-with-react/index.html"
   },
   {
-    "revision": "d8a6db6e155ef10da301",
-    "url": "/mythic-plus-with-react/static/css/main.96cfb007.chunk.css"
+    "revision": "801e46e234c7ce0d7357",
+    "url": "/mythic-plus-with-react/static/css/main.8bdf5678.chunk.css"
   },
   {
     "revision": "a782349ea7d90206ee2b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mythic-plus-with-react/static/js/2.4c87e813.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d8a6db6e155ef10da301",
-    "url": "/mythic-plus-with-react/static/js/main.543eb7ab.chunk.js"
+    "revision": "801e46e234c7ce0d7357",
+    "url": "/mythic-plus-with-react/static/js/main.3e782710.chunk.js"
   },
   {
     "revision": "05443ba20332d90be5bb",

@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mythic-plus-with-react/static/css/main.96cfb007.chunk.css",
-    "main.js": "/mythic-plus-with-react/static/js/main.543eb7ab.chunk.js",
-    "main.js.map": "/mythic-plus-with-react/static/js/main.543eb7ab.chunk.js.map",
+    "main.css": "/mythic-plus-with-react/static/css/main.8bdf5678.chunk.css",
+    "main.js": "/mythic-plus-with-react/static/js/main.3e782710.chunk.js",
+    "main.js.map": "/mythic-plus-with-react/static/js/main.3e782710.chunk.js.map",
     "runtime-main.js": "/mythic-plus-with-react/static/js/runtime-main.38b32fef.js",
     "runtime-main.js.map": "/mythic-plus-with-react/static/js/runtime-main.38b32fef.js.map",
     "static/js/2.4c87e813.chunk.js": "/mythic-plus-with-react/static/js/2.4c87e813.chunk.js",
     "static/js/2.4c87e813.chunk.js.map": "/mythic-plus-with-react/static/js/2.4c87e813.chunk.js.map",
     "index.html": "/mythic-plus-with-react/index.html",
-    "precache-manifest.3692a9a533c567f60b33fc55c61126bd.js": "/mythic-plus-with-react/precache-manifest.3692a9a533c567f60b33fc55c61126bd.js",
+    "precache-manifest.e83a8e9e33d3736833e8987fbb2708ec.js": "/mythic-plus-with-react/precache-manifest.e83a8e9e33d3736833e8987fbb2708ec.js",
     "service-worker.js": "/mythic-plus-with-react/service-worker.js",
-    "static/css/main.96cfb007.chunk.css.map": "/mythic-plus-with-react/static/css/main.96cfb007.chunk.css.map",
+    "static/css/main.8bdf5678.chunk.css.map": "/mythic-plus-with-react/static/css/main.8bdf5678.chunk.css.map",
     "static/js/2.4c87e813.chunk.js.LICENSE.txt": "/mythic-plus-with-react/static/js/2.4c87e813.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.38b32fef.js",
     "static/js/2.4c87e813.chunk.js",
-    "static/css/main.96cfb007.chunk.css",
-    "static/js/main.543eb7ab.chunk.js"
+    "static/css/main.8bdf5678.chunk.css",
+    "static/js/main.3e782710.chunk.js"
   ]
 }
